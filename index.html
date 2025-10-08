@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {
+            border-radius: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Vipin Tanwar</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to my portfolio</h1>
+        <p>Hey I am a web developement student this is my portfolio website </p>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="image.com.jpg" alt="My Profile Picture" width="150" height="150">
+            <p>As a B.tech student in computer science at KR Manglam university. I am passionated about web development to develope my skills </p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li><strong>Daily Calorie Tracker:</strong> A web app that helps users track their daily food intake and
+                    calories.</li>
+                <li><strong>Portfolio Website:</strong> This personal portfolio showcasing my skills and projects.</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="1" cellpadding="8">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Proficiency Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here"
+                    required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+    </main>
+    <br>
+    <br>
+    <footer>
+        ------------------------This is made my HTML------------------------
+    </footer>
+</body>
+
+</html>
